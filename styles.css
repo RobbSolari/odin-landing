@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    padding-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > h3 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.intro-cta > button {
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 8px 32px;
+}
+
+.intro-cta > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.item {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10%;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-text > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.signature {
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-banner {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    padding: 30px 100px;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.cta-banner > button {
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 32px;
+    font-weight: bold;
+}
+
+.cta-text > h3 {
+    margin: 0;
+}
+
+.cta-text > p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    color: #E5E7EB;
+}
